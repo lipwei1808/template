@@ -1,5 +1,5 @@
 {
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint", "jest"],
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
@@ -99,5 +99,8 @@
     "react": {
       "version": "detect"
     }
+  },
+  "env": {
+    "jest/globals": true
   }
 }
